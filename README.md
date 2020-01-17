@@ -1,3 +1,5 @@
+frontend app to accompany this backend api: https://github.com/phil-mac/frontend-challenge-i
+
 # Sprint Challenge: Express and Node.js - Projects & Actions
 
 ## Description
