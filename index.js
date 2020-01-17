@@ -11,4 +11,15 @@ there is no data on that route, just write some code, you'll sort it out… don'
 I need this code, but don't know where, perhaps should make some middleware, don't worry, just hack it
 
 Go code!
+
+<3
+
 */
+
+const server = require('./server');
+
+const port = 5000;
+
+server.listen(port, () => {
+    console.log(`Listening on port ${port} !`)
+})
