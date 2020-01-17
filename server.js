@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 
 const server = express()
 
@@ -6,7 +7,7 @@ const projectRouter = require('./api/projectRouter')
 const actionRouter = require('./api/actionRouter')
 
 server.use(express.json())
-
+server.use(cors())
 server.use(logger)
 
 server.use('/api/projects', projectRouter)
