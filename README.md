@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Express routing and express middleware
+
 - [ ] Describe Middleware?
+
+    Middleware in express are functions that are run on a server when a request is recieved from a client, that can either perform an operation, modify the request, modify the response, and/or call the next piece of middleware.
 
 - [ ] Describe a Resource?
 
+    A resource is a type of data that is stored on a server such as a list of users, events, or messages.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    The API can return a status code such as 200, and can also return a JSON object containing a message that indicates success.
+
 - [ ] How can we partition our application into sub-applications?
+
+    Express routing allows us to create sub-apps for different endpoints, and write the endpoint logic in seperate files.
 
 ## Minimum Viable Product
 
